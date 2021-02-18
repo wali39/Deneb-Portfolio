@@ -1,0 +1,13 @@
+.navbar .nav-link {
+  font-size: 17px;
+  color: black;
+}
+.buttonHire {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  background: #feb000;
+  color: white !important;
+}

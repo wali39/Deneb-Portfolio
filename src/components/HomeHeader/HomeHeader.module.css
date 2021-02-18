@@ -1,0 +1,28 @@
+.h1 {
+  font-size: 7vmin;
+  font-weight: 400;
+}
+.h4 {
+  font-size: 3vmin;
+}
+.h1 span {
+  color: orange;
+  font-weight: 700;
+}
+.buttonHire {
+  outline: 0;
+  border: 0;
+  background: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  background: orange;
+  color: white;
+  margin-bottom: 20px;
+}
+.buttonHire:hover {
+  background: #ffb404;
+}

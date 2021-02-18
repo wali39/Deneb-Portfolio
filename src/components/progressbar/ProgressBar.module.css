@@ -1,0 +1,48 @@
+.progressWrapper {
+  margin-bottom: 30px;
+}
+.progressTitle {
+  position: relative;
+}
+
+.progressTitle span {
+  float: right;
+  color: #feb000;
+}
+.progress {
+  overflow: visible;
+  height: 20px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+}
+.progressBar {
+  /* overflow: visible; */
+  position: relative;
+  border-radius: 10px;
+  /* width: 85%; */
+  height: 20px;
+  background-color: #feb000;
+  z-index: 1;
+}
+.dot {
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f89e00;
+}
+.dot::after {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  content: "";
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #f89e00;
+  opacity: 0.3;
+}

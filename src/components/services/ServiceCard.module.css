@@ -1,0 +1,16 @@
+.serviceCard {
+  font-size: 16px;
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -ms-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+  border: 3px solid white;
+}
+
+.serviceCard:hover {
+  border: 3px dashed gold;
+  box-shadow: 0px 2px 16px 6px rgba(199, 195, 195, 0.75);
+  -webkit-box-shadow: 0px 2px 16px 6px rgba(199, 195, 195, 0.75);
+  -moz-box-shadow: 0px 2px 16px 6px rgba(199, 195, 195, 0.75);
+}

@@ -1,0 +1,35 @@
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.portfolio .nav-tabs .nav-link.active {
+  /* border: 3px #feb000 !important; */
+  background: #feb000 !important;
+  color: white !important;
+}
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.portfolio .nav-tabs .nav-link {
+  padding: 0;
+  width: auto !important;
+  height: auto !important;
+  text-align: center;
+  margin: 7px;
+  padding: 7px 20px !important;
+  border-radius: 22px !important;
+  box-shadow: 5px 8.66px 27px 0 rgb(254 176 0 / 15%) !important;
+  -moz-box-shadow: 5px 8.66px 27px 0 rgb(254 176 0 / 15%) !important;
+  -webkit-box-shadow: 5px 8.66px 27px 0 rgb(254 176 0 / 15%) !important;
+  -webkit-border-radius: 22px !important;
+  -moz-border-radius: 22px !important;
+  -ms-border-radius: 22px !important;
+  -o-border-radius: 22px !important;
+}
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.portfolio .nav-tabs .nav-link img {
+  margin-bottom: 20px;
+}
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.portfolio .nav-tabs .nav-link:hover {
+  border: 3px solid white !important;
+}
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.portfolio .nav-tabs a.nav-link {
+  color: black;
+}

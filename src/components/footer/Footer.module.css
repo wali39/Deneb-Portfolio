@@ -1,0 +1,57 @@
+.uL {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+.uL li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+.uL li a {
+  color: #011a3e;
+  text-decoration: none;
+}
+.uL li a:hover {
+  color: #feb000;
+}
+.uL p {
+  padding: 0;
+  margin: 0;
+}
+.uL li i {
+  color: #feb000;
+  /* font-size: 20px; */
+  padding-right: 15px;
+}
+.icon i {
+  /*padding: 20px;
+  */
+  color: #feb000;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  background: #feb20049;
+  line-height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+}
+.h3 h3 {
+  position: relative;
+  color: #011a3e;
+  font-weight: 600;
+}
+.h3 h3:after {
+  content: "";
+  display: block;
+  background: url(../../assets//images/line-shape.png) no-repeat;
+  max-width: 38px;
+  height: 5px;
+  margin-top: 5px;
+}
