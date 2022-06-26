@@ -9,10 +9,12 @@ import ContactUs from "./pages/ContactUs";
 import BlogDetails from "./pages/BlogDetailsPage";
 import GetInTouch from "./components/contact/GetInTouch";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Route path="/" component={Home} exact />
         <Route path="/about" component={AboutUs} exact />
         <Route path="/services" component={Services} exact />

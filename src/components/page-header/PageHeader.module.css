@@ -1,7 +1,8 @@
 .bg {
-  background-image: url(../../assets/images/bg6.jpg);
-  background-size: cover;
+  background-image: url(../../assets/images/bg-tp.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+
 }
 .h2Padding h2 {
   font-size: 7vmin;
